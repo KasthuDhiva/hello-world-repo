@@ -7,9 +7,6 @@ jobs:
   nodejs-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
       - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
